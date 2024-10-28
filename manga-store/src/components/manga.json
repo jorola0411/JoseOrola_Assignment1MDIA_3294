@@ -1,0 +1,33 @@
+{
+    "mangaData": [
+        {
+            "id": 1,
+            "name": "Bleach",
+            "description": "Best manga ever (no bias) (definitely bias)",
+            "image": "src/assets/bleachcover.jpg",
+            "price": "12.99"        
+        },
+        {
+            "id": 2,
+            "name": "Naruto",
+            "description": "Probably my least favorite tbh",
+            "image": "src/assets/narutocover.jpg",
+            "price": "12999.99"        
+        },
+        {
+            "id": 3,
+            "name": "One Piece",
+            "description": "Long but rly fun!",
+            "image": "src/assets/onepiececover.jpg",
+            "price": "10.99"        
+        },
+        {
+            "id": 4,
+            "name": "Jujutsu Kaisen",
+            "description": "Hottest manga of today! omg Gojo omg",
+            "image": "src/assets/jjkcover.jpg",
+            "price": "15.99"        
+        }
+
+    ]
+}
