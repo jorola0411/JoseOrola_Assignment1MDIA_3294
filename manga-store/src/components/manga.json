@@ -27,6 +27,20 @@
             "description": "Hottest manga of today! omg Gojo omg",
             "image": "src/assets/jjkcover.jpg",
             "price": "15.99"        
+        },
+        {
+            "id": 5,
+            "name": "Dragon Ball",
+            "description": "Grandfather of manga wowie",
+            "image": "src/assets/dragonballcover.jpg",
+            "price": "14.99"        
+        },
+        {
+            "id": 6,
+            "name": "Wotakoi",
+            "description": "Romance for gamers, woa",
+            "image": "src/assets/wotakoicover.jpg",
+            "price": "13.99"        
         }
 
     ]

@@ -1,19 +1,17 @@
-// Header.js
 import React from "react";
 
 const Header = () => {
   return (
-    <header className="bg-blue-600 p-4">
+    <header className="dark:bg-purple-400 p-4">
       <div className="container mx-auto flex justify-between items-center">
       
-        <h1 className="text-white text-2xl font-bold">Jao's Books</h1>
+      <a><img src="src/assets/logo.png" alt="Jao's Books" className="w-20"/></a>
 
        
         <nav className="hidden md:flex space-x-6">
           <a href="#home" className="text-white hover:text-blue-200">Home</a>
           <a href="#about" className="text-white hover:text-blue-200">About</a>
-          <a href="#services" className="text-white hover:text-blue-200">Services</a>
-          <a href="#contact" className="text-white hover:text-blue-200">Contact</a>
+          <a href="#product" className="text-white hover:text-blue-200">Products</a>
         </nav>
 
         
