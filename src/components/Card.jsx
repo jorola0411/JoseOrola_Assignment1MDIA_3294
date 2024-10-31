@@ -5,7 +5,7 @@ import IonIcon from '@reacticons/ionicons';
 function Card( { manga, favourites, handleFavClick } ){
 
     return(
-        <div className="flex items-center justify-center min-h-screen bg-gray-100 w-90">
+        <div className="h-auto bg-gray-100 w-90">
         <div key={manga.id}> 
                  <img src={manga.image}  className="w-full h-100  object-cover"/>
                  

@@ -18,9 +18,9 @@ function List() {
     }
   }
   return (
-    <div className="bg-purple-200 min-h-screen">
+    <div className="min-h-screen w-8/12 mx-auto">
 
-<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 bg-white rounded-lg shadow-lg">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 bg-purple-200 rounded-lg shadow-lg">
             {mangas.map((singleManga) => {
 
               return (
