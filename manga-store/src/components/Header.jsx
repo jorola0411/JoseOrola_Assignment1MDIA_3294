@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from 'react';
+import IonIcon from '@reacticons/ionicons';
 
 const Header = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+  
   return (
-    <header className="dark:bg-purple-400 p-4">
+    <header className="dark:bg-purple-500 p-3">
       <div className="container mx-auto flex justify-between items-center">
       
       <a><img src="src/assets/logo.png" alt="Jao's Books" className="w-20"/></a>
@@ -15,11 +19,11 @@ const Header = () => {
         </nav>
 
         
-        <button className="text-white md:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
-          </svg>
+        <button className="text-white md:hidden"  onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <IonIcon name="menu" style={{ fontSize: 24, color: 'white' }}></IonIcon>
         </button>
+
+        
       </div>
     </header>
   );
