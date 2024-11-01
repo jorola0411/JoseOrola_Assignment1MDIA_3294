@@ -34,19 +34,19 @@
         },
         {
             "id": 5,
-            "name": "Dragon Ball",
-            "author": "Akira Toriyama",
-            "description": "Grandfather of manga wowie",
-            "image": "src/assets/dragonballcover.jpg",
-            "price": "14.99"        
-        },
-        {
-            "id": 6,
             "name": "Wotakoi",
             "author": "Fujita",
             "description": "Romance for gamers, woa",
             "image": "src/assets/wotakoicover.jpg",
-            "price": "13.99"        
+            "price": "13.99"             
+        },
+        {
+            "id": 6,
+            "name": "Dragon Ball",
+            "author": "Akira Toriyama",
+            "description": "Grandfather of manga wowie",
+            "image": "src/assets/dragonballcover.jpg",
+            "price": "14.99"      
         }
 
     ]
